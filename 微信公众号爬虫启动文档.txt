@@ -1,0 +1,7 @@
+1. 管理员权限启动redis
+2. 启动mongoDB
+3. 启动elasticsearch.bat
+4. 启动elSearch插件 elasticsearch-head-master/grunt server
+5. 启动代理 cd weixin_crawler\proxy; 然后 node proxy.js
+6. 配制手机无线网代理 本机ip:8001
+7. cd weixin_crawler\project; python main.py
