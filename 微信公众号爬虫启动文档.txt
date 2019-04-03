@@ -1,6 +1,6 @@
 ﻿1. 管理员权限启动redis(使用默认端口6379)
 
-2. 启动mongoDB  命令: net start MongoDB
+2. 启动mongoDB  命令: net start MongoDB 客户端使用robo3t
 
 3. 启动elasticsearch.bat
 
