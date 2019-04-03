@@ -1,7 +1,13 @@
-1. 管理员权限启动redis
-2. 启动mongoDB
+﻿1. 管理员权限启动redis(使用默认端口6379)
+
+2. 启动mongoDB  命令: net start MongoDB
+
 3. 启动elasticsearch.bat
-4. 启动elSearch插件 elasticsearch-head-master/grunt server
-5. 启动代理 cd weixin_crawler\proxy; 然后 node proxy.js
+
+4. 启动elSearch插件 elasticsearch-head-master/grunt server  端口 9100
+
+5. 启动代理 cd weixin_crawler\proxy; 然后命令: node proxy.js 或者 anyproxy , 端口默认8002
+
 6. 配制手机无线网代理 本机ip:8001
-7. cd weixin_crawler\project; python main.py
+
+7. cd weixin_crawler\project; python main.py  端口默认5000
